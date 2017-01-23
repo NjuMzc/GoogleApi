@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jndi/google"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/googleearth"
+              username="root"
+              password="960830"
+              maxActive="20"
+              maxIdle="10"
+              maxWait="10000"/>
+</Context>
